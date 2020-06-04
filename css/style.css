@@ -6,34 +6,40 @@
 
 .container{
     width: 765px;
+    height: 500px;
     margin: 20px auto;
-    border: 1px solid black;
-    background-color: gray;
 }
 
 .row{
     height: 250px;
-    border: 1px solid black;
-    background-color: lightgray;
+    margin: 0 auto;
 }
 
 .item{
     display: inline-block;
     height: 250px;
     width: 250px;
-    border: 1px solid black;
-    background-color: blue;
+    margin: 0 auto;
+    background-color: lightgray;
     position: relative;
 }
 
-/* .discount{
+.discount{
     position: absolute;
     top: 0px;
     right: 0px;
     background-color: green;
 }
 
-.row .discount:nth-of-type(even){
+.red{
     background-color: red;
 }
- */
+
+.heart{
+    height: 50px;
+    width: 50px;
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 125px;
+}
