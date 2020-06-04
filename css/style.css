@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.row{
+    height: 50%;
+    background-color: black;
+}
+
+.item{
+    display: inline-block;
+    width: 33%;
+    background-color: blue;
+    position: relative;
+}
+
+.discount{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: green;
+}
