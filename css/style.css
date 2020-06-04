@@ -6,22 +6,30 @@
 
 .container{
     width: 765px;
-    height: 500px;
+    height: 650px;
+    border: 1px solid black;
     margin: 20px auto;
 }
 
 .row{
-    height: 250px;
+    height: 325px;
     margin: 0 auto;
 }
 
 .item{
     display: inline-block;
-    height: 250px;
-    width: 250px;
-    margin: 0 auto;
-    background-color: lightgray;
+    height: 320px;
+    width: 245px;
+    margin: 2px 3px;
+    background-color: whitesmoke;
     position: relative;
+}
+
+img{
+    display: inline-block;
+    width: 245px;
+    height: 320px;
+    padding: 25px 25px;
 }
 
 .discount{
@@ -29,17 +37,27 @@
     top: 0px;
     right: 0px;
     background-color: green;
+    font-size: 12px;
 }
 
-.red{
+.item:nth-child(2) .discount{
     background-color: red;
 }
+/* Al posto di child potevo anche usare type in questo caso. Oppure più semplicemente aggiungere una classe .red
+ai secondi discount ma ho voluto divertirmi con un
+selettore avanzato */
 
 .heart{
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
     color: red;
+    text-align: center;
     position: absolute;
     bottom: 0;
-    left: 125px;
+    left: 115px;
+    display: none;
+}
+
+.item:hover .heart{
+    display: block;
 }
