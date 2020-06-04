@@ -5,26 +5,35 @@
 }
 
 .container{
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
+    width: 765px;
+    margin: 20px auto;
+    border: 1px solid black;
+    background-color: gray;
 }
 
 .row{
-    height: 50%;
-    background-color: black;
+    height: 250px;
+    border: 1px solid black;
+    background-color: lightgray;
 }
 
 .item{
     display: inline-block;
-    width: 33%;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
     background-color: blue;
     position: relative;
 }
 
-.discount{
+/* .discount{
     position: absolute;
     top: 0px;
     right: 0px;
     background-color: green;
 }
+
+.row .discount:nth-of-type(even){
+    background-color: red;
+}
+ */
